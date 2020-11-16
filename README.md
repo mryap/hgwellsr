@@ -7,7 +7,8 @@
 The goal of hgwellsr package is to provides access to the full texts of 6 novels 
 by H. G. Wells. The plain-text for each novel was sourced and lightly cleaned 
 from Project Gutenberg. Each novel is in a character vector. The package contains:
-- 'timemachine': The Time Machine, (1895)
+
+* `timemachine`: **The Time Machine**, (1895)
 * `annveronica` : **Ann Veronica**, (1909)  
 * `mrpolly` : **The History of Mr Polly**, (1910) 
 * `invisibleman` : **The Invisible Man**, (1897)
