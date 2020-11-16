@@ -1,0 +1,18 @@
+Package: hgwellsr
+Type: Package
+Title: Date Package of selected H.G. Wells novels
+Version: 0.1.0
+Author: c(
+    person("Shiao Shyan", "Yap", email="mryap@pm.me", role = c("aut", "cre"))
+    )
+Maintainer: Shiao Shyan Yap <mryap@pm.me>
+Description: Full text data for selected H. G. Wells novels ready for data analysis.
+    This includes the novels Ann Vernnica, The History of Mr Polly, The Invisible Man,
+    The Island of Doctor Moreau, The Time Machine and The War of the Worlds.
+Depends:
+    R (>= 3.1)    
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+URL:https://github.com/mryap/hgwellsr
+
