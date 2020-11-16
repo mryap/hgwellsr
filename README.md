@@ -4,7 +4,10 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of hgwellsr is to ...
+The goal of hgwellsr package is to provides access to the full texts of 6 novels 
+by H. G. Wells. The plain-text for each novel was sourced and lightly cleaned 
+from Project Gutenberg. Each novel is in a character vector. The package for now contains:
+- 'timemachine': The Time Machine, published in 1895
 
 ## Installation
 
@@ -14,12 +17,10 @@ You can install this package using
 remotes::install_github("mryap/hgwellsr")
 ```
 
-## Example
-
-This is a basic example which shows you how to solve a common problem:
+## Accessing the Package
 
 ``` r
-library(hgwellsr)
-package_how()
+library(hgwellsr) # load library
+timemachine 
 ```
 
