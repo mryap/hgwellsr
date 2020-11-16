@@ -14,7 +14,9 @@ from Project Gutenberg. Each novel is in a character vector. The package for now
 You can install this package using
 
 ``` r
-remotes::install_github("mryap/hgwellsr")
+library(devtools)
+install_github("mryap/hgwellsr")
+# remotes::install_github("mryap/hgwellsr")
 ```
 
 ## Accessing the Package
