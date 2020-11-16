@@ -8,10 +8,10 @@ The goal of hgwellsr is to ...
 
 ## Installation
 
-You can install the released version of hgwellsr from [CRAN](https://CRAN.R-project.org) with:
+You can install this package using
 
 ``` r
-install.packages("hgwellsr")
+remotes::install_github("mryap/hgwellsr")
 ```
 
 ## Example
@@ -20,6 +20,6 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(hgwellsr)
-## basic example code
+package_how()
 ```
 
