@@ -1,0 +1,55 @@
+---
+title: '`hgwellsr` package'
+author: "Yap S S"
+date: "17/11/2020"
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+---
+
+### Goal
+The goal of `hgwellsr` package is to provides access to the full texts of 6 novels by H. G. Wells. The plain-text for each novel was sourced and lightly cleaned from Project Gutenberg. Each novel is in a character vector. Currently, the package contains: 
+
+- timemachine: The Time Machine, (1895) 
+
+#### WIP
+- annveronica : Ann Veronica, (1909) 
+- mrpolly : The History of Mr Polly, (1910) 
+- invisibleman : The Invisible Man, (1897) 
+- doctormoreau : The Island of Doctor Moreau, (1896) 
+- waroftheworlds : The War of the Worlds, (1898) 
+
+### Install my package as follows
+```{r}
+library(devtools)
+install_github("mryap/hgwellsr")
+```
+
+
+### The War of the Worlds, (1898)
+```{r}
+library(hgwellsr) # load library
+waroftheworlds
+```
+
+### The Time Machine, (1895) 
+```{r}
+library(hgwellsr) # load library
+timemachine
+```
+### Hire Yap
+
+Web Analytics: Google Analytics, Google Tag Manager, Google API, Google Data Studio, Google Optimize
+
+Google Marketing Data warehouse : Extract insights from diverse datasets into Google BigQuery (up to 324GB) with sql query as part of a hands-on lab skill in From Data to Insights with Google Cloud Platform
+
+Web Design/Development: HTML, CSS, JavaScript
+
+Advanced MS Excel: Vlookup, Index, Match, pivot tables
+
+Machine Learning Algorithms: Decision Trees, Logistic Regression, Multiple Linear Regression, K Means Clustering, Random Forest
+
+Data Science: R and Python for data collection (API, database, JSON), data parsing & cleaning, analysis in RMarkdown/Jupyter Notebooks, Docker and Conda for portability and reproducibility, Terminal/Shell command line for GitHub version control 
+
+Framework: Understand "See-Think-Do-Care" Customer Journey Mapping for marketing, HEART for product development process, Jobs-To-Be-Done for customer and Fogg Behavior Model
