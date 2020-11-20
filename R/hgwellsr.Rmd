@@ -1,11 +1,11 @@
 ---
 title: '`hgwellsr` package'
 author: "Yap S S"
-date: "17/11/2020"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
-  word_document: default
   html_document:
     df_print: paged
+  word_document: default
 ---
 
 ### Goal

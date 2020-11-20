@@ -6,12 +6,9 @@
 
 The goal of hgwellsr package is to provides access to the full texts of 6 novels 
 by H. G. Wells. The plain-text for each novel was sourced and lightly cleaned 
-from Project Gutenberg. Each novel is in a character vector. Currently, the package 
-contains:
+from Project Gutenberg. Each novel is in a character vector. 
 
 * `timemachine`: **The Time Machine**, (1895)
-
-## Work in Progress
 * `annveronica` : **Ann Veronica**, (1909)  
 * `mrpolly` : **The History of Mr Polly**, (1910) 
 * `invisibleman` : **The Invisible Man**, (1897)
@@ -27,7 +24,7 @@ library(devtools)
 install_github("mryap/hgwellsr")
 ```
 
-## Accessing the Package
+## Accessing the R Package
 
 ``` r
 library(hgwellsr) # load library
